@@ -1,0 +1,55 @@
+
+==================================================================
+https://keybase.io/joshua_s
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://joshua-sarver.com
+  * I am joshua_s (https://keybase.io/joshua_s) on keybase.
+  * I have a public key ASDhmCI2ZAb8Hjtz3DfvNQ_pAcT-gx111brtZL9zVeJkego
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01010731aae94f49cb2d23c9d0a23c0e1b532fede7df474b08de6771527458c807750a",
+            "host": "keybase.io",
+            "kid": "0120e19822366406fc1e3b73dc37ef350fe901c4fe831d75d5baed64bf7355e2647a0a",
+            "uid": "b057e32b69dc3d91780940b5ca7b9519",
+            "username": "joshua_s"
+        },
+        "service": {
+            "hostname": "joshua-sarver.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.14"
+    },
+    "ctime": 1459739726,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1459739495,
+        "hash": "1a3273ca61bfd70276ccef1c85eec8120be05347d9ed4cef528223f2e32b2888df67c4b149a2068de14a8e835f3bd32e2a16db7ba4fee562fecd21903f4b459c",
+        "seqno": 428064
+    },
+    "prev": "079593486e4f6ce7824082540c1305bb2860e0620060cc9e18a7ad65b6fe0277",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4ZgiNmQG/B47c9w37zUP6QHE/oMdddW67WS/c1XiZHoKp3BheWxvYWTFAvl7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMDczMWFhZTk0ZjQ5Y2IyZDIzYzlkMGEyM2MwZTFiNTMyZmVkZTdkZjQ3NGIwOGRlNjc3MTUyNzQ1OGM4MDc3NTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTE5ODIyMzY2NDA2ZmMxZTNiNzNkYzM3ZWYzNTBmZTkwMWM0ZmU4MzFkNzVkNWJhZWQ2NGJmNzM1NWUyNjQ3YTBhIiwidWlkIjoiYjA1N2UzMmI2OWRjM2Q5MTc4MDk0MGI1Y2E3Yjk1MTkiLCJ1c2VybmFtZSI6Impvc2h1YV9zIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJqb3NodWEtc2FydmVyLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE0In0sImN0aW1lIjoxNDU5NzM5NzI2LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NTk3Mzk0OTUsImhhc2giOiIxYTMyNzNjYTYxYmZkNzAyNzZjY2VmMWM4NWVlYzgxMjBiZTA1MzQ3ZDllZDRjZWY1MjgyMjNmMmUzMmIyODg4ZGY2N2M0YjE0OWEyMDY4ZGUxNGE4ZTgzNWYzYmQzMmUyYTE2ZGI3YmE0ZmVlNTYyZmVjZDIxOTAzZjRiNDU5YyIsInNlcW5vIjo0MjgwNjR9LCJwcmV2IjoiMDc5NTkzNDg2ZTRmNmNlNzgyNDA4MjU0MGMxMzA1YmIyODYwZTA2MjAwNjBjYzllMThhN2FkNjViNmZlMDI3NyIsInNlcW5vIjo4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQFOsGHMlj9xBki+AzeAi2MiTY1hrJX2mAAjJxE7eLcS9rN2agOmi/VuVKxNvqKVprCdFhalvyB7IfkZ/QDoREwOoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/joshua_s
+
+==================================================================

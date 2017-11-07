@@ -1,0 +1,186 @@
+/*********************************/
+/********** STANDARD HTML *******/
+/*******************************/
+
+body {
+	background-color: white;
+	font-family: sans-serif;
+	
+	/*min-width: 800px;*/
+	/*max-width: 1000px;*/
+	/*width: 1000px;*/
+	/*height: 95%;*/
+	height: 95%;
+
+	position: static; 
+	overflow-y:scroll
+
+    border: 0px solid grey;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /*overflow: hidden;*/
+}
+
+h1 {
+	font-weight: lighter;
+}
+
+a {
+	color: black;
+	outline: 0;
+}
+
+div.sidebar >  a[href*="#"] {display: none;}
+/*a[href] { display: none; }*/
+/*********************************/
+/******** CLASS:HEADER **********/
+/*******************************/
+div.header{
+	background-color: white; 
+	
+	height: 0px;	
+	width: 100%;
+
+	border: inherit;
+}
+
+/*********************************/
+/******** CLASS:MY_PHOTO ********/
+/*******************************/
+div.my_photo > img {
+	float: right;
+	position: relative;
+	width: 150px;
+
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*********************************/
+/******** CLASS:SIDEBAR *********/
+/*******************************/
+div.sidebar{
+	/*background-color: grey;*/
+	position: fixed;
+  	top: 0;
+  	left: 0;
+	float: left;
+
+	height: 100%;
+	width: 150px;
+		
+    background: rgba(230,230,230,1);
+    background: -moz-linear-gradient(left, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 97%, rgba(92,91,92,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(230,230,230,1)), color-stop(97%, rgba(230,230,230,1)), color-stop(100%, rgba(92,91,92,1)));
+    background: -webkit-linear-gradient(left, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 97%, rgba(92,91,92,1) 100%);
+    background: -o-linear-gradient(left, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 97%, rgba(92,91,92,1) 100%);
+    background: -ms-linear-gradient(left, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 97%, rgba(92,91,92,1) 100%);
+    background: linear-gradient(to right, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 97%, rgba(92,91,92,1) 100%);
+
+	border: inherit;
+}
+
+div.sidebar > div.sidebar_links {
+	text-align: right;
+	width: 90%;
+	text-decoration: none;
+	line-height: 200%;
+}
+
+div.sidebar > div.sidebar_links > a {
+	text-decoration: none;
+	display: block;
+	height: 30px;
+	width: 100%;
+
+}
+
+div.sidebar > div.sidebar_links > a.selected {
+	background-color: rgba(0,0,0,0.1);
+	/*font-style: italic;*/
+}
+
+div.sidebar > div.sidebar_links > div.projects{
+	font-size: 30px;
+	border: inherit;
+}
+
+div.sidebar > div.sidebar_links > a:active{
+  background-color: rgba(0,0,0,0.15);
+ }
+
+/*********************************/
+/******** CLASS:CONTENT *********/
+/*******************************/
+div.content{
+	line-height: 150%;
+
+	/*min-width: 100px;*/
+	/*width: 850px;*/
+	/*width: 100%;*/
+	min-width: 650px;
+	max-width: 850px;
+	position: fixed;
+
+	float: left;
+	background-color: white; /*red*/
+		
+	height: 100%;
+	margin-left: 160px;
+	position: relative;
+
+	border: inherit;
+}
+
+div.content > a {
+	color: black;
+	text-decoration: underline black;
+}
+
+div.white_space{
+	min-height: 50%;
+	width: 100%;
+	float: left;
+}
+
+
+/*********************************/
+/******** CLASS:LOGO ************/
+/*******************************/
+div.logo {
+	text-decoration: none;
+}
+
+
+/*********************************/
+/******** CLASS:FOOTER***********/
+/*******************************/
+div.footer{
+	background-color: white; /*green*/
+	width: 100%;
+
+	border: inherit;
+}
+
+
+
+/*********************************/
+/******** CLASS:RESUME_PDF ******/
+/*******************************/
+div.resume_pdf{
+	width: 100%;
+	height: 100%;
+}
+
+
+

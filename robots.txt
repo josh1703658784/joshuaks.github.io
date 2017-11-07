@@ -1,0 +1,4 @@
+# robots.txt for yoursite
+
+User-agent: *
+Disallow: /
