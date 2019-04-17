@@ -1,13 +1,13 @@
 
-
 body {
   margin-left: auto;
   margin-right: auto;
   width: 32em;
   background-color: #282a36;
   color: #f8f8f2;
-  font-family: sans-serif;
+  font-family: "Monaco", "Menlo", "Courier New", "Courier", "monospace"
 }
+
 
 a {
   color: #8be9fd;
@@ -15,10 +15,18 @@ a {
 
 
 h1 {
-  font-family: sans-serif;
   font-size: 26px;
-
 }
+
+
+div {
+  font-size: 14px;
+}
+
+ul {
+  font-size: 14px;
+}
+
 
 footer {
   position: fixed;
@@ -28,5 +36,37 @@ footer {
   background-color: #44475a;
   color: #f8f8f2;
   text-align: center;
-  font-size: 16px;
+  font-size: 10px;
+}
+
+.code-comment {
+    color: #6272a4;
+}
+
+.blink_text {
+
+    animation:1s blinker linear infinite;
+    -webkit-animation:1s blinker linear infinite;
+    -moz-animation:1s blinker linear infinite;
+
+     color: #f8f8f2
+}
+
+
+@-moz-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
 }
