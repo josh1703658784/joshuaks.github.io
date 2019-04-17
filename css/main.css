@@ -1,32 +1,47 @@
-
 body {
+  font-size: 12px;
+  font-family: "Monaco", "Menlo", "Courier New", "Courier", "monospace";
+
   margin-left: auto;
   margin-right: auto;
-  width: 32em;
-  background-color: #282a36;
-  color: #f8f8f2;
-  font-family: "Monaco", "Menlo", "Courier New", "Courier", "monospace"
-}
 
+  max-width: 40em;
+  min-width: 20em;
+
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+
+  color: #f8f8f2;
+  background-color: #282a36;
+}
 
 a {
   color: #8be9fd;
 }
 
-
-h1 {
-  font-size: 26px;
-}
-
-
 div {
-  font-size: 14px;
+  font-size: 1em;
 }
 
+/* https://stackoverflow.com/questions/7698764/custom-bullet-symbol-for-li-elements-in-ul-that-is-a-regular-character-and#12216973 */
 ul {
-  font-size: 14px;
+  font-size: 1em;
+  list-style: none;
+  margin-left: 0em;
+  padding-left: 0em;
 }
 
+li {
+  padding-left: 2em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "+";
+  padding-right: 0.5em;
+}
 
 footer {
   position: fixed;
@@ -36,37 +51,20 @@ footer {
   background-color: #44475a;
   color: #f8f8f2;
   text-align: center;
-  font-size: 10px;
+  font-size: 0.8em;
 }
 
 .code-comment {
-    color: #6272a4;
+  color: #6272a4;
 }
 
+/* https://stackoverflow.com/questions/16344354/how-to-make-blinking-flashing-text-with-css-3#16344389 */
 .blink_text {
-
-    animation:1s blinker linear infinite;
-    -webkit-animation:1s blinker linear infinite;
-    -moz-animation:1s blinker linear infinite;
-
-     color: #f8f8f2
+  animation: blinker 1s step-start infinite;
 }
 
-
-@-moz-keyframes blinker {  
- 0% { opacity: 1.0; }
- 50% { opacity: 0.0; }
- 100% { opacity: 1.0; }
-}
-
-@-webkit-keyframes blinker {  
- 0% { opacity: 1.0; }
- 50% { opacity: 0.0; }
- 100% { opacity: 1.0; }
-}
-
-@keyframes blinker {  
- 0% { opacity: 1.0; }
- 50% { opacity: 0.0; }
- 100% { opacity: 1.0; }
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
